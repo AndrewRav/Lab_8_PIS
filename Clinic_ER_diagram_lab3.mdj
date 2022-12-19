@@ -1,0 +1,1398 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "ERDDataModel",
+			"_id": "AAAAAAGECQ7L5z9z/i4=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Data Model1",
+			"ownedElements": [
+				{
+					"_type": "ERDDiagram",
+					"_id": "AAAAAAGECQ7L5z90quQ=",
+					"_parent": {
+						"$ref": "AAAAAAGECQ7L5z9z/i4="
+					},
+					"name": "ERDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAGECTniQj96dNc=",
+							"_parent": {
+								"$ref": "AAAAAAGECQ7L5z90quQ="
+							},
+							"model": {
+								"$ref": "AAAAAAGECTniQT94AoM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGECTniQj97LTI=",
+									"_parent": {
+										"$ref": "AAAAAAGECTniQj96dNc="
+									},
+									"font": "Arial;13;1",
+									"left": 704,
+									"top": 565,
+									"width": 157.34033203125,
+									"height": 13,
+									"text": "Запись на приём"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAGECTniQj98mK4=",
+									"_parent": {
+										"$ref": "AAAAAAGECTniQj96dNc="
+									},
+									"model": {
+										"$ref": "AAAAAAGECTniQT94AoM="
+									},
+									"subViews": [
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGECUHFQT+VUBk=",
+											"_parent": {
+												"$ref": "AAAAAAGECTniQj98mK4="
+											},
+											"model": {
+												"$ref": "AAAAAAGECUHFPD+SOa4="
+											},
+											"font": "Arial;13;0",
+											"left": 709,
+											"top": 588,
+											"width": 147.34033203125,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEQWKsx7bAP9k=",
+											"_parent": {
+												"$ref": "AAAAAAGECTniQj98mK4="
+											},
+											"model": {
+												"$ref": "AAAAAAGEQWKswra9WM8="
+											},
+											"font": "Arial;13;0",
+											"left": 709,
+											"top": 603,
+											"width": 147.34033203125,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEQXh+prbRNXU=",
+											"_parent": {
+												"$ref": "AAAAAAGECTniQj98mK4="
+											},
+											"model": {
+												"$ref": "AAAAAAGEQXh+obbOcJ8="
+											},
+											"font": "Arial;13;0",
+											"left": 709,
+											"top": 618,
+											"width": 147.34033203125,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 704,
+									"top": 583,
+									"width": 157.34033203125,
+									"height": 53
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 704,
+							"top": 560,
+							"width": 157.34033203125,
+							"height": 112,
+							"nameLabel": {
+								"$ref": "AAAAAAGECTniQj97LTI="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAGECTniQj98mK4="
+							}
+						},
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAGECUNUFz+dg4E=",
+							"_parent": {
+								"$ref": "AAAAAAGECQ7L5z90quQ="
+							},
+							"model": {
+								"$ref": "AAAAAAGECUNUFz+bcHo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGECUNUFz+e9TM=",
+									"_parent": {
+										"$ref": "AAAAAAGECUNUFz+dg4E="
+									},
+									"font": "Arial;13;1",
+									"left": 960,
+									"top": 677,
+									"width": 138.697265625,
+									"height": 13,
+									"text": "Доктор"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAGECUNUFz+fiF4=",
+									"_parent": {
+										"$ref": "AAAAAAGECUNUFz+dg4E="
+									},
+									"model": {
+										"$ref": "AAAAAAGECUNUFz+bcHo="
+									},
+									"subViews": [
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEQXidO7bYv7c=",
+											"_parent": {
+												"$ref": "AAAAAAGECUNUFz+fiF4="
+											},
+											"model": {
+												"$ref": "AAAAAAGEQXidMbbVFnA="
+											},
+											"font": "Arial;13;0",
+											"left": 965,
+											"top": 700,
+											"width": 128.697265625,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEQXirRbbfiwE=",
+											"_parent": {
+												"$ref": "AAAAAAGECUNUFz+fiF4="
+											},
+											"model": {
+												"$ref": "AAAAAAGEQXirQbbcN1s="
+											},
+											"font": "Arial;13;0",
+											"left": 965,
+											"top": 715,
+											"width": 128.697265625,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEQXmjl7btp8s=",
+											"_parent": {
+												"$ref": "AAAAAAGECUNUFz+fiF4="
+											},
+											"model": {
+												"$ref": "AAAAAAGEQXmjk7bqT4U="
+											},
+											"font": "Arial;13;0",
+											"left": 965,
+											"top": 730,
+											"width": 128.697265625,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 960,
+									"top": 695,
+									"width": 138.697265625,
+									"height": 53
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 960,
+							"top": 672,
+							"width": 138.697265625,
+							"height": 112,
+							"nameLabel": {
+								"$ref": "AAAAAAGECUNUFz+e9TM="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAGECUNUFz+fiF4="
+							}
+						},
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAGEQVuqfLZwN1A=",
+							"_parent": {
+								"$ref": "AAAAAAGECQ7L5z90quQ="
+							},
+							"model": {
+								"$ref": "AAAAAAGEQVuqfLZuIs0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGEQVuqfLZxPe0=",
+									"_parent": {
+										"$ref": "AAAAAAGEQVuqfLZwN1A="
+									},
+									"font": "Arial;13;1",
+									"left": 1352,
+									"top": 373,
+									"width": 138.697265625,
+									"height": 13,
+									"text": "Администратор"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAGEQVuqfLZyDtU=",
+									"_parent": {
+										"$ref": "AAAAAAGEQVuqfLZwN1A="
+									},
+									"model": {
+										"$ref": "AAAAAAGEQVuqfLZuIs0="
+									},
+									"subViews": [
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEQXvoRrcxXFI=",
+											"_parent": {
+												"$ref": "AAAAAAGEQVuqfLZyDtU="
+											},
+											"model": {
+												"$ref": "AAAAAAGEQXvoO7cuRic="
+											},
+											"font": "Arial;13;0",
+											"left": 1357,
+											"top": 396,
+											"width": 128.697265625,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEQXv+NLc4A4M=",
+											"_parent": {
+												"$ref": "AAAAAAGEQVuqfLZyDtU="
+											},
+											"model": {
+												"$ref": "AAAAAAGEQXv+K7c1SiU="
+											},
+											"font": "Arial;13;0",
+											"left": 1357,
+											"top": 411,
+											"width": 128.697265625,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEQYVIhrgNQXs=",
+											"_parent": {
+												"$ref": "AAAAAAGEQVuqfLZyDtU="
+											},
+											"model": {
+												"$ref": "AAAAAAGEQYVIgbgKkRo="
+											},
+											"font": "Arial;13;0",
+											"left": 1357,
+											"top": 426,
+											"width": 128.697265625,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 1352,
+									"top": 391,
+									"width": 138.697265625,
+									"height": 53
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 1352,
+							"top": 368,
+							"width": 138.697265625,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGEQVuqfLZxPe0="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAGEQVuqfLZyDtU="
+							}
+						},
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAGEQV0+orZ/Gxo=",
+							"_parent": {
+								"$ref": "AAAAAAGECQ7L5z90quQ="
+							},
+							"model": {
+								"$ref": "AAAAAAGEQV0+orZ95RA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGEQV0+oraAjkw=",
+									"_parent": {
+										"$ref": "AAAAAAGEQV0+orZ/Gxo="
+									},
+									"font": "Arial;13;1",
+									"left": 888,
+									"top": 253,
+									"width": 138.697265625,
+									"height": 13,
+									"text": "Пациент"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAGEQV0+oraB+88=",
+									"_parent": {
+										"$ref": "AAAAAAGEQV0+orZ/Gxo="
+									},
+									"model": {
+										"$ref": "AAAAAAGEQV0+orZ95RA="
+									},
+									"subViews": [
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEQV4NQ7aZ+QM=",
+											"_parent": {
+												"$ref": "AAAAAAGEQV0+oraB+88="
+											},
+											"model": {
+												"$ref": "AAAAAAGEQV4NP7aWQ6c="
+											},
+											"font": "Arial;13;0",
+											"left": 893,
+											"top": 276,
+											"width": 128.697265625,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEQV4wk7agB5E=",
+											"_parent": {
+												"$ref": "AAAAAAGEQV0+oraB+88="
+											},
+											"model": {
+												"$ref": "AAAAAAGEQV4wjrade3Q="
+											},
+											"font": "Arial;13;0",
+											"left": 893,
+											"top": 291,
+											"width": 128.697265625,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEQV6IjLaoBR0=",
+											"_parent": {
+												"$ref": "AAAAAAGEQV0+oraB+88="
+											},
+											"model": {
+												"$ref": "AAAAAAGEQV6Ihralf6A="
+											},
+											"font": "Arial;13;0",
+											"left": 893,
+											"top": 306,
+											"width": 128.697265625,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEQXjlXrblIl4=",
+											"_parent": {
+												"$ref": "AAAAAAGEQV0+oraB+88="
+											},
+											"model": {
+												"$ref": "AAAAAAGEQXjlWbbiSDk="
+											},
+											"font": "Arial;13;0",
+											"left": 893,
+											"top": 321,
+											"width": 128.697265625,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 888,
+									"top": 271,
+									"width": 138.697265625,
+									"height": 68
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 888,
+							"top": 248,
+							"width": 138.697265625,
+							"height": 120,
+							"nameLabel": {
+								"$ref": "AAAAAAGEQV0+oraAjkw="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAGEQV0+oraB+88="
+							}
+						},
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAGEQWBin7auKQ0=",
+							"_parent": {
+								"$ref": "AAAAAAGECQ7L5z90quQ="
+							},
+							"model": {
+								"$ref": "AAAAAAGEQWBin7as3Dk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGEQWBin7avKac=",
+									"_parent": {
+										"$ref": "AAAAAAGEQWBin7auKQ0="
+									},
+									"font": "Arial;13;1",
+									"left": 1208,
+									"top": 533,
+									"width": 146.53662109375,
+									"height": 13,
+									"text": "Мед. карта пациента"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAGEQWBin7awMFI=",
+									"_parent": {
+										"$ref": "AAAAAAGEQWBin7auKQ0="
+									},
+									"model": {
+										"$ref": "AAAAAAGEQWBin7as3Dk="
+									},
+									"subViews": [
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEQXoLL7cCtB0=",
+											"_parent": {
+												"$ref": "AAAAAAGEQWBin7awMFI="
+											},
+											"model": {
+												"$ref": "AAAAAAGEQXoLKrb/0t4="
+											},
+											"font": "Arial;13;0",
+											"left": 1213,
+											"top": 556,
+											"width": 136.53662109375,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEQXpIV7cKMGc=",
+											"_parent": {
+												"$ref": "AAAAAAGEQWBin7awMFI="
+											},
+											"model": {
+												"$ref": "AAAAAAGEQXpIUrcH4Wo="
+											},
+											"font": "Arial;13;0",
+											"left": 1213,
+											"top": 571,
+											"width": 136.53662109375,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEQXphQ7cRcHI=",
+											"_parent": {
+												"$ref": "AAAAAAGEQWBin7awMFI="
+											},
+											"model": {
+												"$ref": "AAAAAAGEQXphPLcOV+E="
+											},
+											"font": "Arial;13;0",
+											"left": 1213,
+											"top": 586,
+											"width": 136.53662109375,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEQXqCOLcYlg0=",
+											"_parent": {
+												"$ref": "AAAAAAGEQWBin7awMFI="
+											},
+											"model": {
+												"$ref": "AAAAAAGEQXqCMrcVjrw="
+											},
+											"font": "Arial;13;0",
+											"left": 1213,
+											"top": 601,
+											"width": 136.53662109375,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGEQXqqt7cfkYA=",
+											"_parent": {
+												"$ref": "AAAAAAGEQWBin7awMFI="
+											},
+											"model": {
+												"$ref": "AAAAAAGEQXqqsrccHNk="
+											},
+											"font": "Arial;13;0",
+											"left": 1213,
+											"top": 616,
+											"width": 136.53662109375,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 1208,
+									"top": 551,
+									"width": 146.53662109375,
+									"height": 83
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 1208,
+							"top": 528,
+							"width": 146.53662109375,
+							"height": 121,
+							"nameLabel": {
+								"$ref": "AAAAAAGEQWBin7avKac="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAGEQWBin7awMFI="
+							}
+						},
+						{
+							"_type": "ERDRelationshipView",
+							"_id": "AAAAAAGEQX+xG7ePR9I=",
+							"_parent": {
+								"$ref": "AAAAAAGECQ7L5z90quQ="
+							},
+							"model": {
+								"$ref": "AAAAAAGEQX+xG7eLxSE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGEQX+xG7eQbo0=",
+									"_parent": {
+										"$ref": "AAAAAAGEQX+xG7ePR9I="
+									},
+									"font": "Arial;13;0",
+									"left": 1127,
+									"top": 735,
+									"width": 344.10009765625,
+									"height": 13,
+									"alpha": -1.927015777976433,
+									"distance": 45.880278987817846,
+									"hostEdge": {
+										"$ref": "AAAAAAGEQX+xG7ePR9I="
+									},
+									"edgePosition": 1,
+									"text": "Записывает/просматривает  мед. информацию (диагноз)"
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGEQX+xG7eREUQ=",
+									"_parent": {
+										"$ref": "AAAAAAGEQX+xG7ePR9I="
+									},
+									"font": "Arial;13;0",
+									"left": 1123,
+									"top": 705,
+									"height": 13,
+									"alpha": 0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGEQX+xG7ePR9I="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGEQX+xG7eSFI4=",
+									"_parent": {
+										"$ref": "AAAAAAGEQX+xG7ePR9I="
+									},
+									"font": "Arial;13;0",
+									"left": 1241,
+									"top": 667,
+									"height": 13,
+									"alpha": -0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGEQX+xG7ePR9I="
+									}
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGEQWBin7auKQ0="
+							},
+							"tail": {
+								"$ref": "AAAAAAGECUNUFz+dg4E="
+							},
+							"lineStyle": 2,
+							"points": "1098:726;1256:726;1256:648",
+							"nameLabel": {
+								"$ref": "AAAAAAGEQX+xG7eQbo0="
+							},
+							"tailNameLabel": {
+								"$ref": "AAAAAAGEQX+xG7eREUQ="
+							},
+							"headNameLabel": {
+								"$ref": "AAAAAAGEQX+xG7eSFI4="
+							}
+						},
+						{
+							"_type": "ERDRelationshipView",
+							"_id": "AAAAAAGEQYDtSbfiVac=",
+							"_parent": {
+								"$ref": "AAAAAAGECQ7L5z90quQ="
+							},
+							"model": {
+								"$ref": "AAAAAAGEQYDtSLfexMo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGEQYDtSbfjLVQ=",
+									"_parent": {
+										"$ref": "AAAAAAGEQYDtSbfiVac="
+									},
+									"font": "Arial;13;0",
+									"left": 1113,
+									"top": 379,
+									"width": 93.86279296875,
+									"height": 13,
+									"alpha": 0.07837316683945947,
+									"distance": 191.58809983921236,
+									"hostEdge": {
+										"$ref": "AAAAAAGEQYDtSbfiVac="
+									},
+									"edgePosition": 1,
+									"text": "Регистрируется"
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGEQYDtSbfkY6c=",
+									"_parent": {
+										"$ref": "AAAAAAGEQYDtSbfiVac="
+									},
+									"font": "Arial;13;0",
+									"left": 983,
+									"top": 386,
+									"height": 13,
+									"alpha": 0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGEQYDtSbfiVac="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGEQYDtSbfl3tM=",
+									"_parent": {
+										"$ref": "AAAAAAGEQYDtSbfiVac="
+									},
+									"font": "Arial;13;0",
+									"left": 1326,
+									"top": 379,
+									"height": 13,
+									"alpha": -0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGEQYDtSbfiVac="
+									}
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGEQVuqfLZwN1A="
+							},
+							"tail": {
+								"$ref": "AAAAAAGEQV0+orZ/Gxo="
+							},
+							"lineStyle": 2,
+							"points": "968:367;968:400;1352:400",
+							"nameLabel": {
+								"$ref": "AAAAAAGEQYDtSbfjLVQ="
+							},
+							"tailNameLabel": {
+								"$ref": "AAAAAAGEQYDtSbfkY6c="
+							},
+							"headNameLabel": {
+								"$ref": "AAAAAAGEQYDtSbfl3tM="
+							}
+						},
+						{
+							"_type": "ERDRelationshipView",
+							"_id": "AAAAAAGEQYmL+LgsbRk=",
+							"_parent": {
+								"$ref": "AAAAAAGECQ7L5z90quQ="
+							},
+							"model": {
+								"$ref": "AAAAAAGEQYmL97goV7A="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGEQYmL+Lgtf9c=",
+									"_parent": {
+										"$ref": "AAAAAAGEQYmL+LgsbRk="
+									},
+									"font": "Arial;13;0",
+									"left": 976,
+									"top": 592,
+									"width": 131.30126953125,
+									"height": 13,
+									"alpha": 4.218447015135025,
+									"distance": 14.7648230602334,
+									"hostEdge": {
+										"$ref": "AAAAAAGEQYmL+LgsbRk="
+									},
+									"edgePosition": 1,
+									"text": "Записывает на приём"
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGEQYmL+LgucUM=",
+									"_parent": {
+										"$ref": "AAAAAAGEQYmL+LgsbRk="
+									},
+									"font": "Arial;13;0",
+									"left": 1182,
+									"top": 619,
+									"height": 13,
+									"alpha": 0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGEQYmL+LgsbRk="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGEQYmL+LgvBlE=",
+									"_parent": {
+										"$ref": "AAAAAAGEQYmL+LgsbRk="
+									},
+									"font": "Arial;13;0",
+									"left": 885,
+									"top": 619,
+									"height": 13,
+									"alpha": -0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGEQYmL+LgsbRk="
+									}
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGECTniQj96dNc="
+							},
+							"tail": {
+								"$ref": "AAAAAAGEQWBin7auKQ0="
+							},
+							"lineStyle": 2,
+							"points": "1208:611;860:611",
+							"nameLabel": {
+								"$ref": "AAAAAAGEQYmL+Lgtf9c="
+							},
+							"tailNameLabel": {
+								"$ref": "AAAAAAGEQYmL+LgucUM="
+							},
+							"headNameLabel": {
+								"$ref": "AAAAAAGEQYmL+LgvBlE="
+							}
+						},
+						{
+							"_type": "ERDRelationshipView",
+							"_id": "AAAAAAGEQYnEmLhIfyc=",
+							"_parent": {
+								"$ref": "AAAAAAGECQ7L5z90quQ="
+							},
+							"model": {
+								"$ref": "AAAAAAGEQYnEmLhEAlY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGEQYnEmLhJqdc=",
+									"_parent": {
+										"$ref": "AAAAAAGEQYnEmLhIfyc="
+									},
+									"font": "Arial;13;0",
+									"left": 1399,
+									"top": 536,
+									"width": 140.943359375,
+									"height": 13,
+									"alpha": 3.625039603711627,
+									"distance": 90.35485598461214,
+									"hostEdge": {
+										"$ref": "AAAAAAGEQYnEmLhIfyc="
+									},
+									"edgePosition": 1,
+									"text": "Оформляет мед. карту."
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGEQYnEmLhK2Q0=",
+									"_parent": {
+										"$ref": "AAAAAAGEQYnEmLhIfyc="
+									},
+									"font": "Arial;13;0",
+									"left": 1404,
+									"top": 466,
+									"height": 13,
+									"alpha": 0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGEQYnEmLhIfyc="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGEQYnEmLhLjZI=",
+									"_parent": {
+										"$ref": "AAAAAAGEQYnEmLhIfyc="
+									},
+									"font": "Arial;13;0",
+									"left": 1379,
+									"top": 592,
+									"height": 13,
+									"alpha": -0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGEQYnEmLhIfyc="
+									}
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGEQWBin7auKQ0="
+							},
+							"tail": {
+								"$ref": "AAAAAAGEQVuqfLZwN1A="
+							},
+							"lineStyle": 2,
+							"points": "1389:447;1389:584;1354:584",
+							"nameLabel": {
+								"$ref": "AAAAAAGEQYnEmLhJqdc="
+							},
+							"tailNameLabel": {
+								"$ref": "AAAAAAGEQYnEmLhK2Q0="
+							},
+							"headNameLabel": {
+								"$ref": "AAAAAAGEQYnEmLhLjZI="
+							}
+						}
+					]
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAGECTniQT94AoM=",
+					"_parent": {
+						"$ref": "AAAAAAGECQ7L5z9z/i4="
+					},
+					"name": "Запись на приём",
+					"ownedElements": [
+						{
+							"_type": "ERDRelationship",
+							"_id": "AAAAAAGEQX7Z1bdxJfc=",
+							"_parent": {
+								"$ref": "AAAAAAGECTniQT94AoM="
+							},
+							"name": "Доктор принимает пациента",
+							"end1": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGEQX7Z1bdyH4A=",
+								"_parent": {
+									"$ref": "AAAAAAGEQX7Z1bdxJfc="
+								},
+								"reference": {
+									"$ref": "AAAAAAGECTniQT94AoM="
+								}
+							},
+							"end2": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGEQX7Z1bdzGAg=",
+								"_parent": {
+									"$ref": "AAAAAAGEQX7Z1bdxJfc="
+								},
+								"reference": {
+									"$ref": "AAAAAAGECUNUFz+bcHo="
+								}
+							}
+						}
+					],
+					"columns": [
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGECUHFPD+SOa4=",
+							"_parent": {
+								"$ref": "AAAAAAGECTniQT94AoM="
+							},
+							"name": "ФИО",
+							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEQWKswra9WM8=",
+							"_parent": {
+								"$ref": "AAAAAAGECTniQT94AoM="
+							},
+							"name": "Дата",
+							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEQXh+obbOcJ8=",
+							"_parent": {
+								"$ref": "AAAAAAGECTniQT94AoM="
+							},
+							"name": "Должность доктора",
+							"length": 0
+						}
+					]
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAGECUNUFz+bcHo=",
+					"_parent": {
+						"$ref": "AAAAAAGECQ7L5z9z/i4="
+					},
+					"name": "Доктор",
+					"ownedElements": [
+						{
+							"_type": "ERDRelationship",
+							"_id": "AAAAAAGEQX+xG7eLxSE=",
+							"_parent": {
+								"$ref": "AAAAAAGECUNUFz+bcHo="
+							},
+							"name": "Записывает/просматривает  мед. информацию (диагноз)",
+							"end1": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGEQX+xG7eMBFM=",
+								"_parent": {
+									"$ref": "AAAAAAGEQX+xG7eLxSE="
+								},
+								"reference": {
+									"$ref": "AAAAAAGECUNUFz+bcHo="
+								}
+							},
+							"end2": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGEQX+xG7eNV2Y=",
+								"_parent": {
+									"$ref": "AAAAAAGEQX+xG7eLxSE="
+								},
+								"reference": {
+									"$ref": "AAAAAAGEQWBin7as3Dk="
+								}
+							}
+						}
+					],
+					"columns": [
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEQXidMbbVFnA=",
+							"_parent": {
+								"$ref": "AAAAAAGECUNUFz+bcHo="
+							},
+							"name": "ФИО",
+							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEQXirQbbcN1s=",
+							"_parent": {
+								"$ref": "AAAAAAGECUNUFz+bcHo="
+							},
+							"name": "Номер телефона",
+							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEQXmjk7bqT4U=",
+							"_parent": {
+								"$ref": "AAAAAAGECUNUFz+bcHo="
+							},
+							"name": "Должность",
+							"length": 0
+						}
+					]
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAGEQVp4vbZgvjQ=",
+					"_parent": {
+						"$ref": "AAAAAAGECQ7L5z9z/i4="
+					},
+					"columns": [
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEQXnF67bxQto=",
+							"_parent": {
+								"$ref": "AAAAAAGEQVp4vbZgvjQ="
+							},
+							"name": "Column1"
+						}
+					]
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAGEQVuqfLZuIs0=",
+					"_parent": {
+						"$ref": "AAAAAAGECQ7L5z9z/i4="
+					},
+					"name": "Администратор",
+					"ownedElements": [
+						{
+							"_type": "ERDRelationship",
+							"_id": "AAAAAAGEQYAcareilBo=",
+							"_parent": {
+								"$ref": "AAAAAAGEQVuqfLZuIs0="
+							},
+							"name": "Оформляет пациента",
+							"end1": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGEQYAcarejz3A=",
+								"_parent": {
+									"$ref": "AAAAAAGEQYAcareilBo="
+								},
+								"reference": {
+									"$ref": "AAAAAAGEQVuqfLZuIs0="
+								}
+							},
+							"end2": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGEQYAcarekB8Y=",
+								"_parent": {
+									"$ref": "AAAAAAGEQYAcareilBo="
+								},
+								"reference": {
+									"$ref": "AAAAAAGEQWBin7as3Dk="
+								}
+							}
+						},
+						{
+							"_type": "ERDRelationship",
+							"_id": "AAAAAAGEQYnEmLhEAlY=",
+							"_parent": {
+								"$ref": "AAAAAAGEQVuqfLZuIs0="
+							},
+							"name": "Оформляет мед. карту.",
+							"end1": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGEQYnEmLhF2Fo=",
+								"_parent": {
+									"$ref": "AAAAAAGEQYnEmLhEAlY="
+								},
+								"reference": {
+									"$ref": "AAAAAAGEQVuqfLZuIs0="
+								}
+							},
+							"end2": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGEQYnEmLhG/wo=",
+								"_parent": {
+									"$ref": "AAAAAAGEQYnEmLhEAlY="
+								},
+								"reference": {
+									"$ref": "AAAAAAGEQWBin7as3Dk="
+								},
+								"cardinality": "0..*"
+							}
+						}
+					],
+					"columns": [
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEQXvoO7cuRic=",
+							"_parent": {
+								"$ref": "AAAAAAGEQVuqfLZuIs0="
+							},
+							"name": "ФИО",
+							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEQXv+K7c1SiU=",
+							"_parent": {
+								"$ref": "AAAAAAGEQVuqfLZuIs0="
+							},
+							"name": "Номер телефона",
+							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEQYVIgbgKkRo=",
+							"_parent": {
+								"$ref": "AAAAAAGEQVuqfLZuIs0="
+							},
+							"name": "Время работы",
+							"length": 0
+						}
+					]
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAGEQV0+orZ95RA=",
+					"_parent": {
+						"$ref": "AAAAAAGECQ7L5z9z/i4="
+					},
+					"name": "Пациент",
+					"ownedElements": [
+						{
+							"_type": "ERDRelationship",
+							"_id": "AAAAAAGEQX2qQrdIfFU=",
+							"_parent": {
+								"$ref": "AAAAAAGEQV0+orZ95RA="
+							},
+							"end1": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGEQX2qQ7dJhdA=",
+								"_parent": {
+									"$ref": "AAAAAAGEQX2qQrdIfFU="
+								},
+								"reference": {
+									"$ref": "AAAAAAGEQV0+orZ95RA="
+								},
+								"cardinality": "0..*"
+							},
+							"end2": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGEQX2qQ7dKCaU=",
+								"_parent": {
+									"$ref": "AAAAAAGEQX2qQrdIfFU="
+								},
+								"reference": {
+									"$ref": "AAAAAAGECTniQT94AoM="
+								},
+								"cardinality": "0..*"
+							}
+						},
+						{
+							"_type": "ERDRelationship",
+							"_id": "AAAAAAGEQX3+t7dcefU=",
+							"_parent": {
+								"$ref": "AAAAAAGEQV0+orZ95RA="
+							},
+							"end1": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGEQX3+t7ddMVI=",
+								"_parent": {
+									"$ref": "AAAAAAGEQX3+t7dcefU="
+								},
+								"reference": {
+									"$ref": "AAAAAAGEQV0+orZ95RA="
+								},
+								"cardinality": "0..*"
+							},
+							"end2": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGEQX3+t7deCeg=",
+								"_parent": {
+									"$ref": "AAAAAAGEQX3+t7dcefU="
+								},
+								"reference": {
+									"$ref": "AAAAAAGEQVuqfLZuIs0="
+								},
+								"cardinality": "0..*"
+							}
+						},
+						{
+							"_type": "ERDRelationship",
+							"_id": "AAAAAAGEQYDSELfI6WE=",
+							"_parent": {
+								"$ref": "AAAAAAGEQV0+orZ95RA="
+							},
+							"end1": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGEQYDSELfJ1lY=",
+								"_parent": {
+									"$ref": "AAAAAAGEQYDSELfI6WE="
+								},
+								"name": "Записывается на приём",
+								"reference": {
+									"$ref": "AAAAAAGEQV0+orZ95RA="
+								}
+							},
+							"end2": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGEQYDSELfKNao=",
+								"_parent": {
+									"$ref": "AAAAAAGEQYDSELfI6WE="
+								},
+								"reference": {
+									"$ref": "AAAAAAGECTniQT94AoM="
+								},
+								"cardinality": "0..*"
+							}
+						},
+						{
+							"_type": "ERDRelationship",
+							"_id": "AAAAAAGEQYDtSLfexMo=",
+							"_parent": {
+								"$ref": "AAAAAAGEQV0+orZ95RA="
+							},
+							"name": "Регистрируется",
+							"end1": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGEQYDtSLffF9o=",
+								"_parent": {
+									"$ref": "AAAAAAGEQYDtSLfexMo="
+								},
+								"reference": {
+									"$ref": "AAAAAAGEQV0+orZ95RA="
+								}
+							},
+							"end2": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGEQYDtSLfgE0M=",
+								"_parent": {
+									"$ref": "AAAAAAGEQYDtSLfexMo="
+								},
+								"reference": {
+									"$ref": "AAAAAAGEQVuqfLZuIs0="
+								},
+								"cardinality": "0..*"
+							}
+						}
+					],
+					"tags": [
+						{
+							"_type": "Tag",
+							"_id": "AAAAAAGEQV18o7aLgI4=",
+							"_parent": {
+								"$ref": "AAAAAAGEQV0+orZ95RA="
+							},
+							"name": "Tag1",
+							"kind": "string"
+						}
+					],
+					"columns": [
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEQV4NP7aWQ6c=",
+							"_parent": {
+								"$ref": "AAAAAAGEQV0+orZ95RA="
+							},
+							"name": "ФИО",
+							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEQV4wjrade3Q=",
+							"_parent": {
+								"$ref": "AAAAAAGEQV0+orZ95RA="
+							},
+							"name": "Пол",
+							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEQV6Ihralf6A=",
+							"_parent": {
+								"$ref": "AAAAAAGEQV0+orZ95RA="
+							},
+							"name": "Год рождения",
+							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEQXjlWbbiSDk=",
+							"_parent": {
+								"$ref": "AAAAAAGEQV0+orZ95RA="
+							},
+							"name": "Номер телефона",
+							"length": 0
+						}
+					]
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAGEQWBin7as3Dk=",
+					"_parent": {
+						"$ref": "AAAAAAGECQ7L5z9z/i4="
+					},
+					"name": "Мед. карта пациента",
+					"ownedElements": [
+						{
+							"_type": "ERDRelationship",
+							"_id": "AAAAAAGEQYmL97goV7A=",
+							"_parent": {
+								"$ref": "AAAAAAGEQWBin7as3Dk="
+							},
+							"name": "Записывает на приём",
+							"end1": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGEQYmL97gpr6w=",
+								"_parent": {
+									"$ref": "AAAAAAGEQYmL97goV7A="
+								},
+								"reference": {
+									"$ref": "AAAAAAGEQWBin7as3Dk="
+								}
+							},
+							"end2": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGEQYmL+LgqXSM=",
+								"_parent": {
+									"$ref": "AAAAAAGEQYmL97goV7A="
+								},
+								"reference": {
+									"$ref": "AAAAAAGECTniQT94AoM="
+								},
+								"cardinality": "0..*"
+							}
+						}
+					],
+					"columns": [
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEQXoLKrb/0t4=",
+							"_parent": {
+								"$ref": "AAAAAAGEQWBin7as3Dk="
+							},
+							"name": "ФИО",
+							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEQXpIUrcH4Wo=",
+							"_parent": {
+								"$ref": "AAAAAAGEQWBin7as3Dk="
+							},
+							"name": "Пол",
+							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEQXphPLcOV+E=",
+							"_parent": {
+								"$ref": "AAAAAAGEQWBin7as3Dk="
+							},
+							"name": "Год рождения",
+							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEQXqCMrcVjrw=",
+							"_parent": {
+								"$ref": "AAAAAAGEQWBin7as3Dk="
+							},
+							"name": "Адрес",
+							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGEQXqqsrccHNk=",
+							"_parent": {
+								"$ref": "AAAAAAGEQWBin7as3Dk="
+							},
+							"name": "Мед. информация",
+							"length": 0
+						}
+					]
+				}
+			]
+		}
+	]
+}
